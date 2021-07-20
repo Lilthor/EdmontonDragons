@@ -98,6 +98,21 @@ article p{
 .images li img{
     max-width: 100%;
 }
+
+
+
+section.contact{
+    background: #f4f4f4;
+    text-align: left;
+    padding: 60px 20px;
+    color: #4b4b4b;
+}
+.contact h2{
+    font-size: 36px;
+}
+
+
+
 section.home{
     background: #f4f4f4;
     text-align: center;
