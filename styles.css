@@ -6,7 +6,7 @@ body, ul, li, h1, h2, a{
 
 
 header{
-    background-color: #0d4ace;
+    background-color: #633408;
     padding: 20px;
     text-align: center;
     position: fixed;
@@ -30,7 +30,7 @@ header h1{
     max-width: 100%;
     }
 .banner .welcome{
-    background-color: #944d0b;
+    background-color: #633408;
     color: white;
     padding: 30px;
     position: absolute;
