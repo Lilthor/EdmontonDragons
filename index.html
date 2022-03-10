@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html>
 
@@ -29,7 +27,7 @@
 
     <script src="https://kit.fontawesome.com/af0d654364.js" crossorigin="anonymous"></script>
     <script src="/js/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="/cloud/global/js/jquery.min.js"><\/script>')</script>
+    <script>window.jQuery || document.write('<script src="/js/jquery.min.js"><\/script>')</script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/msaglobal.js?v=1"></script>
     <script src="/js/jquery.rotate.js?v=1"></script>
@@ -391,7 +389,7 @@
                         language="javascript">      $(document).ready(function () { loadData(); }); function loadData() { $('#bootstrapModalFullCalendar').fullCalendar({ events: 'https://api.rampinteractive.com/mastercalendar/gethome/446/0/0/0', header: { left: '', center: 'prev title next', right: '' }, height: 460, defaultView: 'listMonth',             /*restricting available dates to 2 moths in future*/             viewRender: function (view, element) { var now = new Date(); var end = new Date();                   /*end.setMonth(now.getMonth() + 2); /*Adjust as needed*/                   /*if (end < view.end) {                     $("#calendar .fc-next-button").hide();                     return false;                 }                 else {                     $("#calendar .fc-next-button").show();                 }*/                   if (view.start < now) { $("#bootstrapModalFullCalendar .fc-prev-button").hide(); return false; } else { $("#bootstrapModalFullCalendar .fc-prev-button").show(); } }, eventClick: function (event, jsEvent, view) { $('#modalTitle').html(decoded); $('#modalBody').html(event.description); $('#eventUrl').attr('href', event.url); $('#fullCalModal').modal(); return false; } });         /*var d = new Date();         $('#bootstrapModalFullCalendar').fullCalendar('gotoDate', d);*/ };  </script>
                 </div>
                 <div class="col-lg-4 col-md-4 socialBlock">
-                    <script>              $(window).resize(function () { var container_width = $('#fbContainer').width(); $('#fbContainer').html('<div class="fb-page" data-href="https://www.facebook.com/Edmonton-Dragons-Basketball-Club-100127015966546/" data-tabs="timeline" data-width="' + container_width + '" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/EdmontonYouthBasketball" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/EdmontonYouthBasketball">Loading Facebook</a></blockquote></div>'); FB.XFBML.parse(); });          </script>
+                    <script>              $(window).resize(function () { var container_width = $('#fbContainer').width(); $('#fbContainer').html('<div class="fb-page" data-href="https://www.facebook.com/Edmonton-Dragons-Basketball-Club-100127015966546/" data-tabs="timeline" data-width="' + container_width + '" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/Edmonton-Dragons-Basketball-Club-100127015966546/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Edmonton-Dragons-Basketball-Club-100127015966546/">Loading Facebook</a></blockquote></div>'); FB.XFBML.parse(); });          </script>
                     <div id="fb-root" class=" fb_reset">
                         <div style="position: absolute; top: -10000px; width: 0px; height: 0px;">
                             <div></div>
@@ -404,23 +402,37 @@
                             data-width="337" data-height="500" data-small-header="true"
                             data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"
                             fb-xfbml-state="rendered"
-                            fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=&amp;container_width=337&amp;height=500&amp;hide_cover=true&amp;href=https%3A%2F%2Fwww.facebook.com%2FEdmontonYouthBasketball&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=false&amp;small_header=true&amp;tabs=timeline&amp;width=337">
+                            fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=&amp;container_width=337&amp;height=500&amp;hide_cover=true&amp;href=https%3A%2F%2Fwww.facebook.com%2FEdmontonDragons&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=false&amp;small_header=true&amp;tabs=timeline&amp;width=337">
                             <span style="vertical-align: bottom; width: 337px; height: 500px;"><iframe
                                     name="f9a111de6cfd5c" width="337px" height="500px"
                                     data-testid="fb:page Facebook Social Plugin" title="fb:page Facebook Social Plugin"
                                     frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no"
                                     allow="encrypted-media"
-                                    src="https://www.facebook.com/v2.7/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df317ffaa3bcad8c%26domain%3Dedmontonyouthbasketball.com%26is_canvas%3Dfalse%26origin%3Dhttp%253A%252F%252Fedmontonyouthbasketball.com%252Ff34a0fcca144d48%26relation%3Dparent.parent&amp;container_width=337&amp;height=500&amp;hide_cover=true&amp;href=https%3A%2F%2Fwww.facebook.com%2FEdmontonYouthBasketball&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=false&amp;small_header=true&amp;tabs=timeline&amp;width=337"
+                                    src="https://www.facebook.com/v2.7/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df317ffaa3bcad8c%26domain%3Dedmontondragons.ca%26is_canvas%3Dfalse%26origin%3Dhttp%253A%252F%252Fedmontondragons.ca%252Ff34a0fcca144d48%26relation%3Dparent.parent&amp;container_width=337&amp;height=500&amp;hide_cover=true&amp;href=https%3A%2F%2Fwww.facebook.com%2FEdmontonDragons&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=false&amp;small_header=true&amp;tabs=timeline&amp;width=337"
                                     style="border: none; visibility: visible; width: 337px; height: 500px;"
                                     class=""></iframe></span></div>
                     </div>
                 </div>
                 <div class="clearfix"></div>
-                <div class="col-lg-4 col-md-4 socialBlock"> <iframe id="twitter-widget-0" scrolling="no" frameborder="0"
-                        allowtransparency="true" allowfullscreen="true"
+                <div class="col-lg-4 col-md-4 socialBlock"> 
+                    
+                        <iframe id="twitter-widget-0" scrolling="no" frameborder="0"
+                            allowtransparency="true" allowfullscreen="true" class="twitter-timeline twitter-timeline-rendered"
+                            style="position: static; visibility: visible; display: inline-block; width: 100%; height: 500px; padding: 0px; border: none; max-width: 100%; min-width: 180px; margin-top: 0px; margin-bottom: 0px; min-height: 200px;"
+                            data-widget-id="profile:The_EYBA" title="Twitter Timeline">
+                        </iframe>
+                    
+                    <!-- <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true"
                         class="twitter-timeline twitter-timeline-rendered"
                         style="position: static; visibility: visible; display: inline-block; width: 100%; height: 500px; padding: 0px; border: none; max-width: 100%; min-width: 180px; margin-top: 0px; margin-bottom: 0px; min-height: 200px;"
-                        data-widget-id="profile:The_EYBA" title="Twitter Timeline"></iframe>
+                        data-widget-id="profile:DragonsEdmonton" title="Twitter Timeline">
+                    </iframe> -->
+                   
+
+
+                   
+
+
                     <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
             </div>
@@ -485,20 +497,20 @@
         </div>
     </div>
     <link href="/css/jquery.tablesorter.css?v=1" rel="stylesheet">
-    <script src="/cloud/global/js/jquery.blueimp-gallery.min.js"></script>
-    <script src="/cloud/global/js/jquery.fixedheadertable.js"></script>
-    <script src="/cloud/global/js/bootstrap-image-gallery.min.js"></script>
+    <script src="/js/jquery.blueimp-gallery.min.js"></script>
+    <script src="/js/jquery.fixedheadertable.js"></script>
+    <script src="/js/bootstrap-image-gallery.min.js"></script>
     <script>          $(document).on('click', '.yamm .dropdown-menu', function (e) { e.stopPropagation() }); $('iframe').not("iframe[id^='google_ads_iframe']").not("iframe[class^='ytvid']").wrap('<div class="embed-responsive embed-responsive-16by9" />');      </script>
-    <script src="/cloud/global/js/ie10-viewport-bug-workaround.js"></script>
-    <script src="/cloud/global/js/validator.js"></script>
-    <script src="/cloud/global/js/ramptablescroll.js"></script>
-    <script src="/cloud/global/js/parallax.js"></script>
+    <script src="/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="/js/validator.js"></script>
+    <script src="/js/ramptablescroll.js"></script>
+    <script src="/js/parallax.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-    <script src="/cloud/global/js/next-game-slider.js"></script>
-    <script src="/cloud/global/js/loadingDialog.js"></script>
+    <script src="/js/next-game-slider.js"></script>
+    <script src="/js/loadingDialog.js"></script>
     <script>          var escapeChars = { '¢': 'cent', '£': 'pound', '¥': 'yen', '€': 'euro', '©': 'copy', '®': 'reg', '<': 'lt', '>': 'gt', '"': 'quot', '&': 'amp', '\'': '#39' }; var regexString = '['; for (var key in escapeChars) { regexString += key; } regexString += ']'; var regex = new RegExp(regexString, 'g'); function escapeHTML(str) { return str.replace(regex, function (m) { return '&' + escapeChars[m] + ';'; }); }; var htmlEntities = { nbsp: ' ', cent: '¢', pound: '£', yen: '¥', euro: '€', copy: '©', reg: '®', lt: '<', gt: '>', quot: '"', amp: '&', apos: '\'' }; function unescapeHTML(str) { if (str != null) { return str.replace(/\&([^;]+);/g, function (entity, entityCode) { var match; if (entityCode in htmlEntities) { return htmlEntities[entityCode];                          /*eslint no-cond-assign: 0*/ } else if (match = entityCode.match(/^#x([\da-fA-F]+)$/)) { return String.fromCharCode(parseInt(match[1], 16));                          /*eslint no-cond-assign: 0*/ } else if (match = entityCode.match(/^#(\d+)$/)) { return String.fromCharCode(~~match[1]); } else { return entity; } }); } };      </script>
     <iframe scrolling="no" frameborder="0" allowtransparency="true"
-        src="https://platform.twitter.com/widgets/widget_iframe.a58e82e150afc25eb5372dd55a98b778.html?origin=http%3A%2F%2Fedmontonyouthbasketball.com"
+        src="https://platform.twitter.com/widgets/widget_iframe.a58e82e150afc25eb5372dd55a98b778.html?origin=http%3A%2F%2Fedmontondragons.ca"
         title="Twitter settings iframe" style="display: none;"></iframe><iframe id="rufous-sandbox" scrolling="no"
         frameborder="0" allowtransparency="true" allowfullscreen="true"
         style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;"
