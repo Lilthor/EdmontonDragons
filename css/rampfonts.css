@@ -1,0 +1,61 @@
+@import "https://fonts.googleapis.com/css?family=Oswald|Merriweather";
+@import "https://use.typekit.net/mhe2niz.css";
+
+
+body, {
+  font-family:'Merriweather', 'Times New Roman', serif !important;
+}
+
+h1, h2, h3, h4 {
+    font-family:'Oswald', 'Arial', sans-serif;
+}
+
+h5, h6 {
+    font-family:'Merriweather', 'Times New Roman', serif;
+}
+
+.mediaLogin, .mediaDonate {
+    font-family:'Oswald', 'Arial', sans-serif;
+}
+
+.nav-pills > li > a, .nav-pills > li > a:hover, .nav-pills > li > a:focus {
+    font-family:'Oswald', 'Arial', sans-serif;
+
+}
+.userContentBlock a, .userSecondContentBlock a {
+    font-family:'Oswald', 'Arial', sans-serif;
+}
+
+.navbar .navbar-nav a, .navbar-brand{
+    font-family:'Oswald', 'Arial', sans-serif;
+}
+
+.hattrick_overlay .text {
+    font-family:'Oswald', 'Arial', sans-serif;
+}
+
+.carouselSmallLeftFeature h5 {
+    font-family:'Oswald', 'Arial', sans-serif;
+}
+
+.next-game-bar {
+    font-family:'Open Sans Condensed', Arial, Verdana, sans-serif;
+}
+.hero h1 {
+    font-family:'Oswald', 'Arial', sans-serif;
+}
+.hero p {
+    font-family:'Oswald', 'Arial', sans-serif;
+}
+.hero p.intro {
+    font-family:'Oswald', 'Arial', sans-serif;
+}
+.score {
+    font-family:'Oswald', 'Arial', sans-serif;
+}
+.round-details {
+    font-family:'Oswald', 'Arial', sans-serif;
+}
+.date {
+    font-family:'Merriweather', 'Times New Roman', serif;
+}
