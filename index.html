@@ -1,17 +1,504 @@
-
-
 <!DOCTYPE html>
 <html>
 
 <head>
     <title>Edmonton Dragons Basketball Club</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Website by EdmontonDragons.ca">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="EdmontonDranogs.ca">
+    <link rel="apple-touch-icon" sizes="180x180" href="/imges/DragonsLogo-180x180.png">
+    <link rel="icon" type="image/png" href="/imges/DragonsLogo-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/imges/DragonsLogo-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/imges/safari-pinned-tab.svg" color="#5bbad5">
+    <!-- <link rel="stylesheet" href="/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link href="/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="/css/jquery-ui.theme.min.css" rel="stylesheet">
+    <link href="/css/jquery.fileupload.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/rampsite.css?v=4">
+    <link rel="stylesheet" href="/css/rampsite-custom.css?random=29">
+    <link href="/css/rampfonts.css" rel="stylesheet">
+    <link href="/css/blueimp-gallery.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/bootstrap-image-gallery.min.css">
+
+    <script src="https://kit.fontawesome.com/af0d654364.js" crossorigin="anonymous"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/jquery.min.js"><\/script>')</script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/msaglobal.js?v=1"></script>
+    <script src="/js/jquery.rotate.js?v=1"></script>
+    <script src="/js/jquery.cookie.js"></script>
+    <script src="/js/jquery-ui.min.js"></script>
+    <script type='text/javascript' src='https://partner.googleadservices.com/gampad/google_service.js'></script>
+    <script src="/js/captcha99-0.0.1.js?v=1.1"></script>
+    <script src="/js/moment.js"></script>
+    <link href="/css/fullcalendar.css" rel="stylesheet">
+    <script src="/js/fullcalendar.js"></script>
+    <script src="/js/jquery.countdown.min.js"></script>
+    <script src="/js/slick.js"></script>
+    <script src="/js/carousel.js"></script>
+    <script src="/js/jquery.tablesorter.combined.js"></script>
+    <script>          var googletag = googletag || {}; googletag.cmd = googletag.cmd || []; (function () { var gads = document.createElement('script'); gads.async = true; gads.type = 'text/javascript'; var useSSL = 'https:' == document.location.protocol; gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js'; var node = document.getElementsByTagName('script')[0]; node.parentNode.insertBefore(gads, node); })();      </script>
+    <script
+        type='text/javascript'>          GS_googleAddAdSenseService("ca-pub-4941149722177626"); GS_googleEnableAllServices();      </script>
+    <style>
+        .calendar-text {
+            margin-top: .3em;
+        }
+    </style>
+    <style>
+        /**/
+        .fc-day-grid-event>.fc-content {
+            white-space: normal;
+            text-overflow: inherit;
+        }
+
+        .fc-day-grid-event>.fc-content:hover {
+            max-height: none !important;
+        }
+    </style>
+    <script src="/js/jquery.ui.widget.js"></script>
+    <!-- The Iframe Transport is required for browsers without support for XHR file uploads -->
+    <script src="/js/jquery.iframe-transport.js"></script> <!-- The basic File Upload plugin -->
+    <script src="/js/jquery.fileupload.js"></script>
 </head>
-    
-    
-    
+
+
 <body>
-    
-    Website testing in progress, sorry for the inconvenience..
+    <div class="parallax-mirror"
+        style="visibility: visible; z-index: -100; position: fixed; top: 0px; left: 0px; overflow: hidden; transform: translate3d(0px, 108.912px, 0px); height: 238px; width: 1588px;">
+        <img class="parallax-slider" src="/imges/TransBG.png"
+            style="transform: translate3d(0px, -65.3472px, 0px); position: absolute; height: 893px; width: 1588px; max-width: none;">
+    </div>
+    <meta name="theme-color" content="rgba(17, 17, 17, 1.0)">
+    <div class="container-fluid mediaBar">
+        <div class="container">
+            <div class="col-sm-1 col-xs-1 text-left mediaLogin"> <a class="btn btn-social"
+                    href="https://#" target="_blank"><i class="fa fa-sign-in fa-lg" title="Login Page"
+                        aria-hidden="true"></i><span class="sr-only">Login Page</span><span
+                        class="mediaAdminLogin">&nbsp;Admin Login</span><span class="sr-only">Admin Login</span></a>
+            </div>
+            <div class="col-sm-11 col-xs-11 text-right mediaSocial"> <a target="_new" class="btn btn-social"
+                    href="https://www.facebook.com/Edmonton-Dragons-Basketball-Club-100127015966546/"><i class="fa fa-facebook fa-lg"
+                        title="like us" aria-hidden="true"></i><span class="sr-only">Facebook</span></a> <a
+                    target="_new" class="btn btn-social" href="https://twitter.com/DragonsEdmonton"><i
+                        class="fa fa-twitter fa-lg" title="follow us" aria-hidden="true"></i><span
+                        class="sr-only">Twitter</span></a> <a target="_new" class="btn btn-social"
+                    href="https://www.instagram.com/edmontondragons/"><i class="fa fa-instagram fa-lg" title="instagram"
+                        aria-hidden="true"></i><span class="sr-only">Instagram</span></a> </div>
+        </div>
+    </div>
+    <nav id="assocMenu" class="navbar yamm navbar-default " role="navigation">
+        <div class="navbar-header"> <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1"
+                class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span
+                    class="icon-bar"></span></button><a href="#" class="navbar-brand main">Main Menu</a> </div>
+        <div id="navbar-collapse-1" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a aria-expanded="false" href="/">Home</a></li>
+                <li class="dropdown yamm-fw"> <a aria-expanded="false" href="#" data-toggle="dropdown"
+                        class="dropdown-toggle">2021-22 Season<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <div class="yamm-content">
+                                <div class="row">
+                                    <ul class="col-sm-2 list-unstyled">
+                                        <li> </li>
+                                    </ul>
+                                    <ul class="col-sm-3 list-unstyled">
+                                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeQJTIG_IPbSWINGvZx7RR0uSIP1Yr0Bid_4qDhJXYmxcHWdQ/viewform">2021-2022 Registration</a></li>
+                                    </ul>
+                                    <ul class="col-sm-3 list-unstyled">
+                                        <li><a href="https://www.ualberta.ca/campus-community-recreation/about-us/news/updates/covid-19/update-february-10-2022.html">Game Gym Restrictions</a></li>
+                                    </ul>
+                                    <ul class="col-sm-3 list-unstyled"> </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown yamm-fw"> <a aria-expanded="false" href="#" data-toggle="dropdown"
+                        class="dropdown-toggle">Spring &amp; Summer<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <div class="yamm-content">
+                                <div class="row">
+                                    <ul class="col-sm-2 list-unstyled">
+                                        <li> </li>
+                                    </ul>
+                                    <ul class="col-sm-3 list-unstyled">
+                                        <li><a href="/content/spring-league">EDBC Spring League Info</a></li>
+                                        <li><a href="/content/2022-camps">Camps</a></li>
+                                    </ul>
+                                    <ul class="col-sm-3 list-unstyled">
+                                        <li><a href="/content/clubs">Clubs</a></li>
+                                        <li><a href="/docs/EdmontonDragons-Waiver.pdf"
+                                                target="_blank">EDBC Waiver</a></li>
+                                    </ul>
+                                    <ul class="col-sm-3 list-unstyled"> </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="dropdown yamm-fw"> <a aria-expanded="false" href="#" data-toggle="dropdown"
+                        class="dropdown-toggle">EDBC Executive<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <div class="yamm-content">
+                                <div class="row">
+                                    <ul class="col-sm-2 list-unstyled">
+                                        <li> </li>
+                                    </ul>
+                                    <ul class="col-sm-3 list-unstyled">
+                                        <li><a href="#">Executives</a></li>
+                                        <li><a href="/content/EDBC-mission-vision-values">EDBC Mission / Vision /
+                                                Values</a></li>
+                                    </ul>
+                                    <ul class="col-sm-3 list-unstyled">
+                                        <li><a href="/content/administrative---forms">Administrative / Forms</a></li>
+                                        <li><a href="/content/discipline">Discipline</a></li>
+                                    </ul>
+                                    <ul class="col-sm-3 list-unstyled">
+                                        <li><a href="/content/meeting-minutes">Meeting Minutes</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li><a aria-expanded="false" href="/imges/Court-Schedule-Feb-Mar-2022.png">Courts</a></li>
+                <li><a aria-expanded="false" target="_blank" href="/docs/EdmontonDragons-Waiver.pdf">EDBC Waiver</a></li>
+
+                <li class="dropdown yamm-fw"> <a aria-expanded="false" href="#" data-toggle="dropdown"
+                        class="dropdown-toggle">EDBC Rulebook &amp; Bylaws<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <div class="yamm-content">
+                                <div class="row">
+                                    <ul class="col-sm-2 list-unstyled">
+                                        <li> </li>
+                                    </ul>
+                                    <ul class="col-sm-3 list-unstyled">
+                                        <li><a href="/docs/EDBC Recreational Playing Guide v1.1.pdf"
+                                                target="_blank">EDBC Rulebook</a></li>
+                                    </ul>
+                                    <ul class="col-sm-3 list-unstyled">
+                                        <li><a href="/docs/Policies and Procedures_V1.0.pdf"
+                                                target="_blank">EDBC Bylaws</a></li>
+                                    </ul>
+                                    <ul class="col-sm-3 list-unstyled"> </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav> 
+    <a href="/"><div class="container-fluid assocLogo"></div></a>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="/cloud/edmontonyouthbasketball/css/img/assocBGlogo.png" data-position-y="top" data-speed="0.4" data-ios-fix="true" data-android-fix="false" data-bleed-number="3"></div>
+
+
+    <!-- <div class="pageLiner"></div> CategoriesMenuV2 -->
+
+    <div class="pageLiner"></div> <!-- START CAROUSEL FULL -->
+    <div id="CarouselFull">
+        <div id="myCarousel" class="carousel slide carousel-animate" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+                <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+                <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="3" class=""></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item"> <img src="/imges/BasketballOnFire.jpg">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Temporary Restrictions &amp; EDBC</h1>
+                            <p>Updated March 3rd - Saville Capacity Restrictions Lifted, All Spectators Welcome</p>
+                            <p><a class="btn btn-lg btn-primary btn-responsive" href="https://www.ualberta.ca/campus-community-recreation/about-us/news/updates/covid-19/update-february-10-2022.html" type="button">Read
+                                    More</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item"> <img src="/imges/application.png">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Register for Spring Member Today!</h1>
+                            <p>All details are on our application page</p>
+                            <p><a class="btn btn-lg btn-primary btn-responsive" href="https://docs.google.com/forms/d/e/1FAIpQLSeQJTIG_IPbSWINGvZx7RR0uSIP1Yr0Bid_4qDhJXYmxcHWdQ/viewform" type="button">Read
+                                    More</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item active"> <img src="/imges/EBA.jpg">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>NEW EBA Schedules</h1>
+                            <p>PLAYERS: Please follow up the game schedules</p>
+                            <p><a class="btn btn-lg btn-primary btn-responsive" href="http://www.edmontonbasketball.org/schedules.html" type="button">Read
+                                    More</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item"> <img src="/imges/muddyshoes.jpg">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>No Muddy Shoes in the Gym</h1>
+                            <p>Please abide by the Saville's policies so we can continue using these facilities</p>
+                            <p><a class="btn btn-lg btn-primary btn-responsive" href="#" type="button">Read
+                                    More</a></p>
+                        </div>
+                    </div>
+                </div> 
+
+                <a class="left carousel-control" href="#myCarousel" type="button" data-slide="prev"> 
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> 
+                    <span class="sr-only">Previous</span> 
+                </a>
+                
+                <a class="right carousel-control" href="#myCarousel" type="button" data-slide="next"> 
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> 
+                    <span class="sr-only">Next</span> 
+                </a>
+            </div>
+        </div>
+        <div class="pageLiner"></div>
+    </div> <!-- END CAROUSEL FULL -->
+    <script
+        type="text/javascript">      var tag = document.createElement('script'); tag.id = 'iframe-demo'; tag.src = 'https://www.youtube.com/iframe_api'; var firstScriptTag = document.getElementsByTagName('script')[0]; firstScriptTag.parentNode.insertBefore(tag, firstScriptTag); function onYouTubeIframeAPIReady() { } function onPlayerReady(event) { } function onPlayerStateChange(event) { if (event.data == YT.PlayerState.PLAYING) { $('#myCarousel').carousel({ interval: false, }); $('.carousel-caption').hide(); $('#myCarousel').carousel('pause'); $('.carousel-caption').hide(); } else { $('#myCarousel').carousel({ interval: 5000 }); $('.carousel-caption').show(); } } $(document).on('mouseleave', '.carousel', function () {        /* $(this).carousel('pause');*/        /*player.pauseVideo();*/ }); $(document).on('mouseleave', '.carousel', function () {        /* $(this).carousel('pause');*/        /*player.pauseVideo();*/ }); $('#myCarousel').bind('slide.bs.carousel', function (e) { });  /*    var players = {};    YT_ready(function () {        $("iframe[id]").each(function () {            var identifier = this.id;            var frameID = getFrameID(identifier);            if (frameID) { //If the frame exists                players[frameID] = new YT.Player(frameID, {                    events: {                        "onReady": createYTEvent(frameID, identifier)                    }                });            }        });    });    function createYTEvent(frameID, identifier) {        return function (event) {            var player = players[frameID]; // Set player reference          }    }*/          </script>
+    <div class="contentfullwidth">
+        <div class="container maincontent contentwidth">
+            <div class="row">
+                <div class="col-sm-4 quicklinks"> <a href="/executive" target="_self">
+                        <div class="q-one"> <span>
+                                <h3>Executives</h3>
+                            </span> </div>
+                    </a> </div>
+                <div class="col-sm-4 quicklinks"> <a
+                        href="/docs/EDBC Recreational Playing Guide v1.1.pdf"
+                        target="_blank">
+                        <div class="q-two"> <span>
+                                <h3>Rule Book</h3>
+                            </span> </div>
+                    </a> </div>
+                <div class="col-sm-4 quicklinks"> <a href="/imges/Court-Schedule-Feb-Mar-2022.png" target="_self">
+                        <div class="q-three"> <span>
+                                <h3>Courts</h3>
+                            </span> </div>
+                    </a> </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="row News">
+                        <div class="col-lg-12 newsTitle">
+                            <h2>News</h2>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="row newsEvent">
+                        <div class="col-lg-12 newsEvent">
+                            <div class="col-lg-3 col-md-3 col-sm-2 col-xs-3"> <a class="btn btn-default"
+                                    href="/article/69354"><i class="fa fa-newspaper-o fa-2x" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-10 col-xs-9">
+                                <h4> Mar. 03, 2022 </h4>
+                                <p><a href="https://www.ualberta.ca/campus-community-recreation/about-us/news/updates/covid-19/update-february-10-2022.html">Temporary Restrictions &amp; EDBC</a> <br> Updated March 3rd
+                                    - Saville Capacity Restrictions Lifted, All Spectators Welcome </p>
+                            </div>
+                            <p><a class="btn btn-default btn-sm" href="https://www.ualberta.ca/campus-community-recreation/about-us/news/updates/covid-19/update-february-10-2022.html" role="button">read more »</a></p>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="row newsEvent">
+                        <div class="col-lg-12 newsEvent">
+                            <div class="col-lg-3 col-md-3 col-sm-2 col-xs-3"> <a class="btn btn-default"
+                                    href="https://docs.google.com/forms/d/e/1FAIpQLSeQJTIG_IPbSWINGvZx7RR0uSIP1Yr0Bid_4qDhJXYmxcHWdQ/viewform"><i class="fa fa-newspaper-o fa-2x" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-10 col-xs-9">
+                                <h4> Jan. 24, 2022 </h4>
+                                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeQJTIG_IPbSWINGvZx7RR0uSIP1Yr0Bid_4qDhJXYmxcHWdQ/viewform">Register for Spring League Today!</a> <br> All Details are on
+                                    our Spring League Page </p>
+                            </div>
+                            <p><a class="btn btn-default btn-sm" href="https://docs.google.com/forms/d/e/1FAIpQLSeQJTIG_IPbSWINGvZx7RR0uSIP1Yr0Bid_4qDhJXYmxcHWdQ/viewform" role="button">read more »</a></p>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="row newsEvent">
+                        <div class="col-lg-12 newsEvent">
+                            <div class="col-lg-3 col-md-3 col-sm-2 col-xs-3"> <a class="btn btn-default"
+                                    href="/article/70627"><i class="fa fa-newspaper-o fa-2x" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-10 col-xs-9">
+                                <h4> Nov. 12, 2021 </h4>
+                                <p><a href="article/70627">NEW PROTOCOL for Games &amp; Practices at Edmonton
+                                        Schools</a> <br> COACHES: Submit the online form before each school session </p>
+                            </div>
+                            <p><a class="btn btn-default btn-sm" href="/article/70627" role="button">read more »</a></p>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="row newsMore">
+                        <div class="col-lg-12">
+                            <p><a class="btn btn-imprtnt" href="/news">View More News »</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="clearfix"></div> <br>
+                    <div id="bootstrapModalFullCalendar" class="fc fc-unthemed fc-ltr">
+                        <div class="fc-toolbar">
+                            <div class="fc-left"></div>
+                            <div class="fc-right"></div>
+                            <div class="fc-center"><button type="button"
+                                    class="fc-prev-button fc-button fc-state-default fc-corner-left fc-corner-right"
+                                    style="display: none;"><span
+                                        class="fc-icon fc-icon-left-single-arrow"></span></button>
+                                <h2>March 2022</h2><button type="button"
+                                    class="fc-next-button fc-button fc-state-default fc-corner-left fc-corner-right"><span
+                                        class="fc-icon fc-icon-right-single-arrow"></span></button>
+                            </div>
+                            <div class="fc-clear"></div>
+                        </div>
+                        <div class="fc-view-container" > 
+                            <!-- style="" -->
+                            <div class="fc-view fc-listMonth-view fc-list-view fc-widget-content" >
+                                <!-- style="" -->
+                                <div class="fc-scroller" style="overflow: hidden auto; height: 408px;">
+                                    <div class="fc-list-empty-wrap2">
+                                        <div class="fc-list-empty-wrap1">
+                                            <div class="fc-list-empty">No events to display</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div> <br>
+                    <div class="row newsMore">
+                        <div class="col-lg-12">
+                            <p><a class="btn btn-imprtnt" href="/mastercalendar">View Full Calendar »</a></p>
+                        </div>
+                    </div>
+                    <script type="text/javascript"
+                        language="javascript">      $(document).ready(function () { loadData(); }); function loadData() { $('#bootstrapModalFullCalendar').fullCalendar({ events: 'https://api.rampinteractive.com/mastercalendar/gethome/446/0/0/0', header: { left: '', center: 'prev title next', right: '' }, height: 460, defaultView: 'listMonth',             /*restricting available dates to 2 moths in future*/             viewRender: function (view, element) { var now = new Date(); var end = new Date();                   /*end.setMonth(now.getMonth() + 2); /*Adjust as needed*/                   /*if (end < view.end) {                     $("#calendar .fc-next-button").hide();                     return false;                 }                 else {                     $("#calendar .fc-next-button").show();                 }*/                   if (view.start < now) { $("#bootstrapModalFullCalendar .fc-prev-button").hide(); return false; } else { $("#bootstrapModalFullCalendar .fc-prev-button").show(); } }, eventClick: function (event, jsEvent, view) { $('#modalTitle').html(decoded); $('#modalBody').html(event.description); $('#eventUrl').attr('href', event.url); $('#fullCalModal').modal(); return false; } });         /*var d = new Date();         $('#bootstrapModalFullCalendar').fullCalendar('gotoDate', d);*/ };  </script>
+                </div>
+                <div class="col-lg-4 col-md-4 socialBlock">
+                    <script>              $(window).resize(function () { var container_width = $('#fbContainer').width(); $('#fbContainer').html('<div class="fb-page" data-href="https://www.facebook.com/Edmonton-Dragons-Basketball-Club-100127015966546/" data-tabs="timeline" data-width="' + container_width + '" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/Edmonton-Dragons-Basketball-Club-100127015966546/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Edmonton-Dragons-Basketball-Club-100127015966546/">Loading Facebook</a></blockquote></div>'); FB.XFBML.parse(); });          </script>
+                    <div id="fb-root" class=" fb_reset">
+                        <div style="position: absolute; top: -10000px; width: 0px; height: 0px;">
+                            <div></div>
+                        </div>
+                    </div>
+                    <script>              (function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));          </script>
+                    <div id="fbContainer">
+                        <div class="fb-page fb_iframe_widget"
+                            data-href="https://www.facebook.com/Edmonton-Dragons-Basketball-Club-100127015966546/" data-tabs="timeline"
+                            data-width="337" data-height="500" data-small-header="true"
+                            data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"
+                            fb-xfbml-state="rendered"
+                            fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=&amp;container_width=337&amp;height=500&amp;hide_cover=true&amp;href=https%3A%2F%2Fwww.facebook.com%2FEdmontonDragons&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=false&amp;small_header=true&amp;tabs=timeline&amp;width=337">
+                            <span style="vertical-align: bottom; width: 337px; height: 500px;"><iframe
+                                    name="f9a111de6cfd5c" width="337px" height="500px"
+                                    data-testid="fb:page Facebook Social Plugin" title="fb:page Facebook Social Plugin"
+                                    frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no"
+                                    allow="encrypted-media"
+                                    src="https://www.facebook.com/v2.7/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df317ffaa3bcad8c%26domain%3Dedmontondragons.ca%26is_canvas%3Dfalse%26origin%3Dhttp%253A%252F%252Fedmontondragons.ca%252Ff34a0fcca144d48%26relation%3Dparent.parent&amp;container_width=337&amp;height=500&amp;hide_cover=true&amp;href=https%3A%2F%2Fwww.facebook.com%2FEdmontonDragons&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=false&amp;small_header=true&amp;tabs=timeline&amp;width=337"
+                                    style="border: none; visibility: visible; width: 337px; height: 500px;"
+                                    class=""></iframe></span></div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-lg-4 col-md-4 socialBlock">                     
+                        <a class="twitter-timeline" href="https://twitter.com/DragonsEdmonton?ref_src=twsrc%5Etfw">Tweets by DragonsEdmonton</a>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pageLiner"></div>
+    <div class="container-fluid footer text-center">
+        <div class="row row-eq-height">
+            <div class="col-sm-3 text-left assocFooterInfo">
+                <div class="row row-eq-height">
+                    <div class="col-xs-6 footerLogo"> <a href="#"><img
+                                src="/imges/dragonsLogo.jpg" class="img-responsive"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 text-left assocFooterInfo">
+                <h3>EDBC - Edmonton Dragons Basketball Club © 2022</h3>
+                <p> </p>
+            </div>
+            <div class="col-sm-3 text-left assocFooterInfo">
+                <h3>Contact Us</h3>
+                <div>
+                    <p> <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i> <span class="muted"> 11610 65
+                            Avenue NW, Saville Community Sports Centre, U of A South Campus</span> </p>
+                </div>
+                <div>
+                    <p> <i class="fa fa-envelope fa-2x" aria-hidden="true"></i> <a
+                            href="mailto:edmontondragons@gmail.com">edmontondragons@gmail.com</a> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid RAMPfooter text-center">
+        <div class="row ">
+
+        </div>
+        <div class="row">
+            <div class="col-sm-12 footerRAMPtag text-center">
+                <div class="col-md-12 footerInnerBox">
+                    <p><a href="https://www.edmontondragons.ca" target="_blank">Edmonton Dragons</a> - <a
+                            href="#" target="_blank">Terms of Use</a> - <a
+                            href="#" target="_blank">Privacy Policy</a></p>
+                    <p> <a href="#" target="_blank">Admin Login</a> </p>
+                </div>
+            </div>
+        </div>
+    </div> <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-139407588-1"></script>
+    <script>    window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'UA-139407588-1');  </script>
+    <div id="fullCalModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal"><span
+                            aria-hidden="true">×</span> <span class="sr-only">close</span></button>
+                    <h4 id="modalTitle" class="modal-title"></h4>
+                </div>
+                <div id="modalBody" class="modal-body"></div>
+                <div class="modal-footer"> <button type="button" class="btn btn-default"
+                        data-dismiss="modal">Close</button> <a class="btn btn-primary" id="eventUrl"
+                        target="_blank">View Event Page</a> </div>
+            </div>
+        </div>
+    </div>
+    <link href="/css/jquery.tablesorter.css?v=1" rel="stylesheet">
+    <script src="/js/jquery.blueimp-gallery.min.js"></script>
+    <script src="/js/jquery.fixedheadertable.js"></script>
+    <script src="/js/bootstrap-image-gallery.min.js"></script>
+    <script>          $(document).on('click', '.yamm .dropdown-menu', function (e) { e.stopPropagation() }); $('iframe').not("iframe[id^='google_ads_iframe']").not("iframe[class^='ytvid']").wrap('<div class="embed-responsive embed-responsive-16by9" />');      </script>
+    <script src="/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="/js/validator.js"></script>
+    <script src="/js/ramptablescroll.js"></script>
+    <script src="/js/parallax.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="/js/next-game-slider.js"></script>
+    <script src="/js/loadingDialog.js"></script>
+    <script>          var escapeChars = { '¢': 'cent', '£': 'pound', '¥': 'yen', '€': 'euro', '©': 'copy', '®': 'reg', '<': 'lt', '>': 'gt', '"': 'quot', '&': 'amp', '\'': '#39' }; var regexString = '['; for (var key in escapeChars) { regexString += key; } regexString += ']'; var regex = new RegExp(regexString, 'g'); function escapeHTML(str) { return str.replace(regex, function (m) { return '&' + escapeChars[m] + ';'; }); }; var htmlEntities = { nbsp: ' ', cent: '¢', pound: '£', yen: '¥', euro: '€', copy: '©', reg: '®', lt: '<', gt: '>', quot: '"', amp: '&', apos: '\'' }; function unescapeHTML(str) { if (str != null) { return str.replace(/\&([^;]+);/g, function (entity, entityCode) { var match; if (entityCode in htmlEntities) { return htmlEntities[entityCode];                          /*eslint no-cond-assign: 0*/ } else if (match = entityCode.match(/^#x([\da-fA-F]+)$/)) { return String.fromCharCode(parseInt(match[1], 16));                          /*eslint no-cond-assign: 0*/ } else if (match = entityCode.match(/^#(\d+)$/)) { return String.fromCharCode(~~match[1]); } else { return entity; } }); } };      </script>
+    <iframe scrolling="no" frameborder="0" allowtransparency="true"
+        src="https://platform.twitter.com/widgets/widget_iframe.a58e82e150afc25eb5372dd55a98b778.html?origin=http%3A%2F%2Fedmontondragons.ca"
+        title="Twitter settings iframe" style="display: none;"></iframe><iframe id="rufous-sandbox" scrolling="no"
+        frameborder="0" allowtransparency="true" allowfullscreen="true"
+        style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;"
+        title="Twitter analytics iframe"></iframe>
 </body>
 
 
