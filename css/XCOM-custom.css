@@ -1,0 +1,172 @@
+/* BODY
+-------------------------------------------------- */
+
+body {
+    /*body-bg-default*/
+    background-image: url(/imges/bb-court.jpeg);
+}
+
+@media (min-width: 769px) {
+
+    .assocLogo {
+        background-image: url(/imges/DragonsLogo.svg) !important;
+        background-size: contain;
+        margin-top: -0.5em !important;
+        margin-bottom: -0.5em !important;
+    }
+
+    .assocLogo {
+        height: 19.0em !important;
+    }
+    .parallax-window {
+        height: 17.0em !important;
+    }
+}
+
+.assocLogo {
+    background-image: url(/imges/DragonsLogo.svg);
+    height: 10.0em;
+    margin: -0.5em auto;
+    }
+.parallax-window {
+    height: 8.75em;
+}
+
+@media (min-width: 769px) {
+
+    .assocLogo {
+        background-position-x: center;
+        background-position-y: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+/* NEXT GAME BAR
+-------------------------------------------------- */
+
+
+/* PAGELINER
+-------------------------------------------------- */
+
+.pageLiner{
+    height:3.0em;
+}
+
+@media (max-width: 768px) {
+
+    .pageLiner {
+        height: 1.5em;
+    }
+}/* PAGELINER
+-------------------------------------------------- */
+
+.pageLiner{
+    background-image:url(img/assocBGpageliner.png);
+}.contentfullwidth {
+  background-color:rgba(255,255,255,0.9);
+}.mediaBar .container {
+    max-width: 1100px !important;
+}
+
+.contentfullwidth {
+  max-width:1100px;
+  margin:0 auto;
+  padding:0;
+    -webkit-box-shadow: inset 25px 0px 25px -25px rgba(0, 0, 0, 0.45), inset -25px 0px 25px -25px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: inset 25px 0px 25px -25px rgba(0, 0, 0, 0.45), inset -25px 0px 25px -25px rgba(0, 0, 0, 0.45);
+    box-shadow: 25px 0px 25px -25px rgba(0, 0, 0, 0.45), -25px 0px 25px -25px rgba(0, 0, 0, 0.45);
+}
+
+.contentfullwidth .container, .maincontent {
+    width:100% !important;
+}
+
+.maincontent p{
+  font-size: calc(12px + (18 - 12) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.maincontent h1{
+  font-size: calc(20px + (32 - 20) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.maincontent h2{
+  font-size: calc(18px + (28 - 18) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.maincontent h3{
+  font-size: calc(16px + (24 - 16) * ((100vw - 300px) / (1600 - 300)));
+}
+.maincontent li{
+  font-size: calc(12px + (18 - 12) * ((100vw - 300px) / (1600 - 300)));
+}.hattrick {
+    /*hattrick-square-default*/
+    border-radius: 0;
+}
+.q-one, .q-two, .q-three{
+    /*quicklinks-square-default*/
+    border-radius:0;
+}
+#CarouselSite #myCarouselSite {
+    border-radius: 0;
+}
+#CarouselSmallLeft #myCarouselSmallLeft {
+    border-radius: 0;
+}
+#CarouselSmallRight #myCarouselSmallRight {
+    border-radius: 0;
+}/* LIGHT SITE / DARK SITE
+-------------------------------------------------- */
+
+.btn-default {
+    color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(255, 255, 255, 1.0);
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn-imprtnt, .btn-imprtnt a{
+  color: rgba(255, 255, 255, 1.0) !important;
+}
+
+.btn-imprtnt:hover, .btn-imprtnt a:hover{
+  color: rgba(0, 0, 0, 1.0) !important;
+}
+
+.maincontent h1, .maincontent h2, .maincontent h3 {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+
+.maincontent h4, .maincontent h5, .maincontent h6 {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.hattrick {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.90);
+}
+
+.hattrick_overlay .text {
+    color: rgba(255, 255, 255, 1.0) !important;
+}
+
+.q-one, .q-two, .q-three{
+    border: 2px solid rgba(0, 0, 0, 0.4);
+}
+
+.quicklinks h3{
+    color: rgba(255, 255, 255, 1.0);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.4),
+    -1px -1px 0 rgba(0, 0, 0, 0.6),  
+     1px -1px 0 rgba(0, 0, 0, 0.6),
+    -1px 1px 0 rgba(0, 0, 0, 0.6),
+     1px 1px 0 rgba(0, 0, 0, 0.6);
+}
+
+.fc-unthemed .fc-list-empty {
+    background: none !important;
+}
+
+.fc-unthemed .fc-divider, .fc-unthemed .fc-popover .fc-header, .fc-unthemed .fc-list-heading td {
+    background: rgba(255, 255, 255, 0.9) !important;
+}
